@@ -1,0 +1,39 @@
+#slideshow-container{
+	width: 350px;
+	margin: 0 auto 40px;
+}
+
+#slider{
+	width: 350px;
+	height: 385px;
+	position: relative;
+}
+
+.slider-img{
+	width: 350px;
+	position: absolute;
+	display: none;
+}
+
+.slider-img:first-of-type{
+	display: inherit;
+}
+
+#slider-circles{
+	width: 57px;
+	margin: 20px auto;
+}
+
+.circle{
+	width: 13px;
+	height: 13px;
+	border-radius: 100%;
+	background-color: $color-one;
+	opacity: .3;
+	float: left;
+	margin: 3px;
+}
+
+.circle:first-of-type{
+	opacity: .7;
+}

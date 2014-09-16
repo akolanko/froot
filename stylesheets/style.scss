@@ -1,0 +1,43 @@
+@import "colors";
+@import "links";
+@import "headings";
+@import "forms";
+@import "buttons";
+
+body{
+	font-family: "Bitter", serif;
+	font-size: 14px;
+	letter-spacing: .1em;
+	color: $color-two;
+	box-sizing: border-box;
+}
+
+.bold{
+	font-weight: 700;
+}
+
+.clear{
+	clear: both;
+}
+
+#container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#logo-container{
+	width: 500px;
+	margin: 150px auto 50px;
+}
+
+#logo{
+	width: 500px;
+}
+
+@import "nav";
+@import "sections";
+@import "contact";
+@import "slider";
+@import "lids";
+@import "about";
+@import "teas";

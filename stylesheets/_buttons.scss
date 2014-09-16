@@ -1,0 +1,22 @@
+button{
+	background-color: #fff;
+	font-family: inherit;
+	letter-spacing: inherit;
+	font-size: .9em;
+	text-transform: uppercase;
+	color: $color-two;
+	border: 1px solid #ccc;
+}
+
+button:hover{
+	cursor: pointer;
+	background-color: $color-two;
+	color: #fff;
+	border: 1px solid $color-two;
+}
+
+button:active{
+	background-color: $color-two;
+	color: #fff;
+	border: 1px solid $color-two;
+}
